@@ -1,0 +1,341 @@
+{
+  "program": {
+    "fileInfos": {
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/app.service.ts": {
+        "version": "5d777cdd6d1bceab05907f3cbc584c35f3eecc384aa1134a008d6a1c10a5706f",
+        "signature": "8951df2ca0ff3160ad03f3153c5cbf5f18b90d361e09b23512e7871b61218b53"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/exceptionFilters/http-exception.filter.ts": {
+        "version": "95aa8351272c374df93934d6f9f10e673eddbbde8b0d9ce30a6257ec7095495b",
+        "signature": "4cc9bab78084f2cc71a77d78d1d297a25068bf7f4cd5642267a00931f80c7a6d"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/exceptionFilters/own-error.filter.ts": {
+        "version": "100bd437214c2ff94ad1f72a213fe6da0924769eadb940e0375aaa07cb4bf428",
+        "signature": "fa76320cff325ac48e9cecd995ec81df2880f357faed2bd173c25f99d47fe861"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/guards/roles.decorator.ts": {
+        "version": "52125491997c756e143f905897df1e2a735dea4749620aaed00b56283c1717bb",
+        "signature": "8189a6f5745f66a0d395e3b48af6da3abb2d3d92c4afb0d65a732860cb650116"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/guards/roles.guard.ts": {
+        "version": "f00ae57b436b02536922d92886de41cbf7804b01945048bad213562a353ee582",
+        "signature": "75953a86305f8f3870a226c0830a2c3642b9ac8e2a1f5522c6a2457ed2ba3c4c"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/app.controller.ts": {
+        "version": "b327ba7c93b4c80c5992731bf7aa85adaaeba36071870dc7187d1d1ed553cb8e",
+        "signature": "76033ac4af2c2a332288113e009831228833d35ba670202e54f47d18602c486a"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts": {
+        "version": "8777e8b9e2aaad9e400a18387113faf9593806889cf4ef4267ce5271fce8b8be",
+        "signature": "8777e8b9e2aaad9e400a18387113faf9593806889cf4ef4267ce5271fce8b8be"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts": {
+        "version": "94f798f2ee81af6b0767403ef94fbc6d7d7a5e2dc0953a2ea3de98f2cab587c2",
+        "signature": "94f798f2ee81af6b0767403ef94fbc6d7d7a5e2dc0953a2ea3de98f2cab587c2"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/common/index.d.ts": {
+        "version": "23dbd21c1fe8ee7c2e1b260de8610d1ce67a785cd40d349520306c8d876385c4",
+        "signature": "23dbd21c1fe8ee7c2e1b260de8610d1ce67a785cd40d349520306c8d876385c4"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/decorators/prop.decorator.d.ts": {
+        "version": "5e3ff45752164a88c86b6b950f7deb01f6989c568f2ed2458ef85c8ff1b398f5",
+        "signature": "5e3ff45752164a88c86b6b950f7deb01f6989c568f2ed2458ef85c8ff1b398f5"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/decorators/schema.decorator.d.ts": {
+        "version": "0b6d47ef5eb8df1f39f04b670d4e35c0e81d3b429b1950f881e343d98e614e54",
+        "signature": "0b6d47ef5eb8df1f39f04b670d4e35c0e81d3b429b1950f881e343d98e614e54"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/decorators/index.d.ts": {
+        "version": "4bdb4a78b01987583507ae0d44b33f164b3bdef16caca951e40a86d4a595d31d",
+        "signature": "4bdb4a78b01987583507ae0d44b33f164b3bdef16caca951e40a86d4a595d31d"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/factories/definitions.factory.d.ts": {
+        "version": "b3011036da34d1ad295707ce77420a9385dd6bd274a8d38350bddce8dd5894c2",
+        "signature": "b3011036da34d1ad295707ce77420a9385dd6bd274a8d38350bddce8dd5894c2"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/factories/schema.factory.d.ts": {
+        "version": "93a1336608523b1a745d52e672de1d371539f9383fb2538825d5226da6aeef65",
+        "signature": "93a1336608523b1a745d52e672de1d371539f9383fb2538825d5226da6aeef65"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/factories/index.d.ts": {
+        "version": "fc7e6b96801268ffb81f13f35953ec5847a60170341beb40ccf6badf0ea325b6",
+        "signature": "fc7e6b96801268ffb81f13f35953ec5847a60170341beb40ccf6badf0ea325b6"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/model-definition.interface.d.ts": {
+        "version": "d2744f1996bebb498314d3c70f23fe84a5b4d30734ea3c2df862c0a9633611c2",
+        "signature": "d2744f1996bebb498314d3c70f23fe84a5b4d30734ea3c2df862c0a9633611c2"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/async-model-factory.interface.d.ts": {
+        "version": "5e3848c0da812f18dc386e371c0c336331798013c2879a7529a0137fa757421c",
+        "signature": "5e3848c0da812f18dc386e371c0c336331798013c2879a7529a0137fa757421c"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts": {
+        "version": "3121c8302d6724dd7a7ba38823d3591ef0ece93180a914c3d8f9f4bb2c998b23",
+        "signature": "3121c8302d6724dd7a7ba38823d3591ef0ece93180a914c3d8f9f4bb2c998b23"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts": {
+        "version": "34382c2dd229b11deee828fb033820d26d823ef89aa679127c7abfa79ec7dc39",
+        "signature": "34382c2dd229b11deee828fb033820d26d823ef89aa679127c7abfa79ec7dc39"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts": {
+        "version": "e4f5fb7725eda896f02384930da65d171bba03b6f7e2a7f6ff4989aed531c826",
+        "signature": "e4f5fb7725eda896f02384930da65d171bba03b6f7e2a7f6ff4989aed531c826"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/utils/raw.util.d.ts": {
+        "version": "9a95baf6f94c31e1d9ce4d7c9664ae9fc54842004ef0a6a3b5205c5d121a8ea4",
+        "signature": "9a95baf6f94c31e1d9ce4d7c9664ae9fc54842004ef0a6a3b5205c5d121a8ea4"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/utils/index.d.ts": {
+        "version": "2b9d837d90728c6bddee2cce1352bea7f6e9b8d74ad6b491779ec0f0451935e8",
+        "signature": "2b9d837d90728c6bddee2cce1352bea7f6e9b8d74ad6b491779ec0f0451935e8"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/index.d.ts": {
+        "version": "46f58caa0a74ae0cb3de56cb15d3395cee75538aca128c2734a178018f889a7d",
+        "signature": "46f58caa0a74ae0cb3de56cb15d3395cee75538aca128c2734a178018f889a7d"
+      },
+      "/home/wohlig/node_modules/@nestjs/mongoose/index.d.ts": {
+        "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
+        "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/product.model.ts": {
+        "version": "94d55002cad6c3b4a3ac6e9395ad29a83195601ae86861e504d1d52110b16ed1",
+        "signature": "15dda692c6b9143eb4bb96707d99819f19661b07dfb45ebd4a1db677eb108828"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/interceptors/benchmark.Interceptor.ts": {
+        "version": "d15766e02c4e7c0cec2034626c2ca0ff8c7a26e832c7e8a8a147b18188fb50c2",
+        "signature": "456731290f28e245f8841431f2148fd4752305e95eb6dc4d559b796e6403d24f"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/products.service.ts": {
+        "version": "33d21ae5e0c758c67afdd726d79c2eda383a49664afbb1cc9650ff2b7dc2bfaf",
+        "signature": "1951156a3a19dec205e0c973b8a36ffc61fb9e74018298d3fd8874e5540d81ce"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/decorators/addProduct.decorator.ts": {
+        "version": "2b5575b4eb2ed534956e47136f96f40284e6ffaba30b2a9b5893f62ec0b3122c",
+        "signature": "583f1cc0c4eb6d81b2b897354157d242b4973e696cc205d33a6386d208a3a197"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/products.controller.ts": {
+        "version": "1151718aee8f1a1a1e2fad48a90f9a1b591fbb99f3080a8c46139c0c30876f1a",
+        "signature": "e94b16ecf01cc82085075f2a1080fc14bdb29afaf2593e6d495581e10bb7542a"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/middlewares/product.middleware.ts": {
+        "version": "84b1d4e84e92c9f6ece2afc47317e5532b3eba6279da418db92484c02f8c3b67",
+        "signature": "6ba99447ecf9602b87a9fbf3bc6061c50016a5190a98476c78d619cb9f06ed35"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/products.module.ts": {
+        "version": "36f6debd7d577fb28c3a497b23dfe2a30890fa28213fbb7530598d18eb93b4e2",
+        "signature": "9e19a8877a0662885549280b3b319899e55b31ce0342580db50e7ce2a16bd5eb"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.model.ts": {
+        "version": "a5c9e68d66b17d7c78e894901a4c20d1fa90cbc45588761221cd9ed9f6478b9b",
+        "signature": "84c601ec03add0d5d2b20d579c8f9b8a405c9e320b47be0e8973926e16b662ed"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.service.ts": {
+        "version": "37cafd2b3f42548762fcfbcfcca0684d4cbba9316577ca3ec93bc45eb92b8636",
+        "signature": "a0aa7d6230acd1d99c040e970c99b719688d955dea7c79bf64e76c4da409d594"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.controller.ts": {
+        "version": "de4f0d8c699b2fa74662fade5128850ad296997586c3c5723f140d2f0be1de4c",
+        "signature": "8844818015cb539eff7637886667a39f46150a7261876a217d75bd4969a4120e"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.module.ts": {
+        "version": "d71c939d81cc65b7ae9c4874722d7ef4e0b2b319d2310daf0eb37ac84ff7d1a5",
+        "signature": "4c8b1a9ee76fcb7fa41873710fed2c8f33f3e63cffb215eae10198e97fef0b31"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/app.module.ts": {
+        "version": "b7d72387441a50dfe17f695db35ecdf8102351e42435702c660eeb4473d138e9",
+        "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
+      },
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/main.ts": {
+        "version": "ca6e246808668671fa45a6a4fb654808dd9fe0157397cc63fc41d24289631eb9",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      }
+    },
+    "options": {
+      "module": 1,
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "target": 7,
+      "sourceMap": true,
+      "outDir": "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/dist",
+      "baseUrl": "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/",
+      "incremental": true,
+      "watch": true,
+      "project": "tsconfig.build.json",
+      "configFilePath": "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/tsconfig.build.json"
+    },
+    "referencedMap": {
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/app.controller.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/app.service.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/exceptionFilters/http-exception.filter.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/exceptionFilters/own-error.filter.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/guards/roles.decorator.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/guards/roles.guard.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/common/index.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/decorators/index.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/decorators/prop.decorator.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/decorators/schema.decorator.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/factories/index.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/factories/definitions.factory.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/factories/schema.factory.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/async-model-factory.interface.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/model-definition.interface.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/async-model-factory.interface.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/model-definition.interface.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/utils/index.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/utils/raw.util.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/index.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/common/index.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/decorators/index.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/factories/index.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/utils/index.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/index.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/index.d.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/products.service.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/index.d.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/product.model.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/products.controller.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/interceptors/benchmark.Interceptor.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/products.service.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/product.model.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/decorators/addProduct.decorator.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/products.module.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/index.d.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/product.model.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/products.controller.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/products.service.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/middlewares/product.middleware.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.service.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/index.d.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.model.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/product.model.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.controller.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.service.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.model.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.module.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/index.d.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.model.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/product.model.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.controller.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.service.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/app.module.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/app.controller.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/app.service.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/index.d.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/products.module.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.module.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/main.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/app.module.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/exceptionFilters/http-exception.filter.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/node_modules/@nestjs/common/index.d.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/exceptionFilters/own-error.filter.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/node_modules/@nestjs/common/index.d.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/guards/roles.guard.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/node_modules/@nestjs/core/index.d.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/node_modules/@nestjs/common/index.d.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/node_modules/rxjs/index.d.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/app.controller.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/app.service.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/interceptors/benchmark.Interceptor.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/node_modules/@nestjs/common/index.d.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/node_modules/rxjs/index.d.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/products.service.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/product.model.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/products.controller.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/products.service.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/product.model.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/middlewares/product.middleware.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/node_modules/@types/express/index.d.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/node_modules/@nestjs/common/index.d.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/products.module.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/node_modules/@nestjs/common/index.d.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.service.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.model.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/products/product.model.ts"
+      ],
+      "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.controller.ts": [
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.service.ts",
+        "/home/wohlig/Desktop/wohligNestJsOverview/nestjs-intro/src/category/category.model.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/common/index.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/index.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/common/index.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/decorators/index.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/factories/index.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/utils/index.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/index.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/index.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/decorators/index.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/decorators/prop.decorator.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/decorators/schema.decorator.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/factories/index.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/factories/definitions.factory.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/factories/schema.factory.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/async-model-factory.interface.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/model-definition.interface.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/async-model-factory.interface.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/interfaces/model-definition.interface.d.ts"
+      ],
+      "/home/wohlig/node_modules/@nestjs/mongoose/dist/utils/index.d.ts": [
+        "/home/wohlig/node_modules/@nestjs/mongoose/dist/utils/raw.util.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": []
+  },
+  "version": "3.4.3"
+}
